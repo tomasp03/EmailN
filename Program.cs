@@ -31,7 +31,7 @@ namespace EmailN
             client.Host = "smtp.gmail.com";
             client.Port = 587;
             client.UseDefaultCredentials = false;
-            client.Credentials = new NetworkCredential(sender, "03prusenovsky");
+            client.Credentials = new NetworkCredential(sender, "password");
             client.EnableSsl = true;
 
             // Send email
